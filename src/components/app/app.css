@@ -1,0 +1,64 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5%;
+}
+
+.item {
+  width: 95%;
+  margin-bottom: 2%;
+}
+
+.item-image img {
+  width: 100%;
+}
+
+.item-text {
+  font-size: 12px;
+  text-align: center;
+}
+
+.item-text-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.item-text-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
+
+.item-text-discription {
+  font-size: 12px;
+  text-align: left;
+}
+
+.item-text-category {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(20, 203, 96);
+}
+
+.rating {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(96, 9, 9);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  background-color: blue;
+  color: white;
+  border-radius: 15%;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+}
